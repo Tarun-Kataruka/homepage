@@ -1,0 +1,55 @@
+/* Container for the settings icon */
+.settings-icon-container {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: white; /* Adjust based on screen size */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the settings icon */
+  .settings-icon {
+    width: 30px; /* Responsive size, adjust as needed */
+    height: 30px; /* Responsive size, adjust as needed */
+    color: #333; /* Adjust color as needed */
+    animation: rotate 2s linear infinite; /* Apply rotation animation */
+  }
+  
+  /* Keyframes for the rotation animation */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Media Queries for Responsive Adjustments */
+  @media (max-width: 768px) {
+    .settings-icon-container {
+      padding-left: 4%; /* Increase padding for smaller screens */
+    }
+    
+    .settings-icon {
+      width: 7vw; /* Increase size for smaller screens */
+      height: 7vw; /* Increase size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .settings-icon-container {
+      padding-left: 2%; /* Further increase padding for very small screens */
+    }
+    
+    .settings-icon {
+      width: 28px; /* Further increase size for very small screens */
+      height: 28px; /* Further increase size for very small screens */
+    }
+  }
+  
