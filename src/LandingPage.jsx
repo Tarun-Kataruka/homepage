@@ -89,27 +89,27 @@ const LandingPage = () => {
           {/* Placeholder candidate avatars */}
           <div className="flex space-x-[-10px]">
             <img
-              src="https://via.placeholder.com/40"
+              src="a1.webp"
               alt="Candidate 1"
               className="w-8 h-8 rounded-full"
             />
             <img
-              src="https://via.placeholder.com/40"
+              src="a1.webp"
               alt="Candidate 2"
               className="w-8 h-8 rounded-full"
             />
             <img
-              src="https://via.placeholder.com/40"
+              src="a1.webp"
               alt="Candidate 3"
               className="w-8 h-8 rounded-full"
             />
             <img
-              src="https://via.placeholder.com/40"
+              src="a1.webp"
               alt="Candidate 4"
               className="w-8 h-8 rounded-full"
             />
             <img
-              src="https://via.placeholder.com/40"
+              src="a1.webp"
               alt="Candidate 5"
               className="w-8 h-8 rounded-full"
             />
